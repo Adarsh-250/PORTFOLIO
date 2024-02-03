@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="first-pages">
+        <div id="nav">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo-container">
+                        <p>PORTFOLIO</p>
+                    </div>
+                    <div class="nav-items">
+                        <div><a href="#projects">Projects</a></div>
+                        <div><a href="#skills">Skills</a></div>
+                        <div><a href="#contactme">Contact Me</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="first-page">
+            <!-- <div class="faded-text">Adarsh Gupta</div> -->
+            <div class="left">
+                <div class="heading">
+                    <p>Hi!! Adarsh Gupta</p>
+                </div>
+                <div class="sub-heading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="description">
+                    I'm a web developer and here is my portfolio website. here
+                    you'll learn about my journey as a web developer.
+                </div>
+                <div class="button" id="bt">
+                    Hire me
+                </div>
+            </div>
+            <div class="right">
+                <div class="absolute icons dots">
+                    <img  src="dots.png" alt="" />
+                </div>
+                <div class="absolute icons cube">
+                    <img src="cube.png" alt="" />
+                </div>
+                <div class="absolute icons circle">
+                    <img src="circle.png" alt="" />
+                </div>
+                <div class="absolute icons zigzag">
+                    <img src="zigzag.png" alt="zigzag" />
+                </div>
+                <div class="absolute icons plus">
+                    <img src="plus.png" alt="" />
+                </div>
+                <div class="my-image">
+                    <img src="me.jpg" alt="" />
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Programer",
+                "Web Developer",
+                "Designer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+
+    <div class="second-page">
+        <h1>Projects<span>.</span></h1>
+        <div class="projects">
+            <div class="p1">
+                <img src="p1.jpg" alt="p1">
+                <h2>Tribute Page</h2>
+                <p>A tribute page tribute to legendry actor Robert Downey Jr.</p>
+            </div>
+            <div class="p2">
+                <img src="download (1).jpg" alt="p1">
+                <h2>Brain Test</h2>
+                <p>A simple quiz game named Brain test using basic python</p>
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <h1>SKILLS</h1>
+    </div>
+    <div class="third">
+        <div class="img">
+            <img src="Student Boy Thumbs Up (HD).png">
+        </div>
+        <div class="logos">
+            <div class="logo-size"><img src="brower.png" alt=""></div>
+            <div class="logo-size"><img src="css.png" alt=""></div>
+            <div class="logo-size"><img src="javascript.png" alt=""></div>
+            <div class="logo-size"> <img src="c-.png" alt=""></div>
+            <div class="logo-size"><img src="python.png" alt=""></div>
+           
+        </div>
+        <div class="names">
+            <div><p>HTML</p></div>
+            <div><p>CSS</p></div>
+            <div><p>JAVASCRIPT</p></div>
+            <div><p>C++</p></div>
+            <div><p>PYTHON</p></div>
+        </div>
+    </div>
+    <div class="contact">
+        <div>
+            <img src="c1.jpg">
+        </div>
+        <div class="rows">
+            
+                <h2>Contact</h2>
+                <input type="text" placeholder="Your Firstname" class="text" id="a">
+                <input type="text" placeholder="Your Lastname" class="text" id="b">
+                <input type="text" placeholder="Your email address" class="text" id="c">
+                <input type="text" placeholder="Your subject of this message" class="text" id="d">
+                <input type="text" placeholder="Say something about us" class="text" id="e">
+                <div><button>SEND</button></div>
+           
+        </div>
+    </div>
+
+</body>
+
+</html>
